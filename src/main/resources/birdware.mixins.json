@@ -1,0 +1,24 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "com.birdware.mixin.core",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"ChatComponentMixin",
+		"ClientPacketListenerMixin",
+		"ConnectionMixin",
+		"EntityAccessor",
+		"GameRendererAccessor",
+		"KeyboardHandlerMixin",
+		"LevelRendererMixin",
+		"LocalPlayerMixin",
+		"MinecraftAccessor",
+		"MinecraftMixin",
+		"MouseHandlerMixin",
+		"MultiPlayerGameModeAccessor",
+		"MultiPlayerGameModeMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

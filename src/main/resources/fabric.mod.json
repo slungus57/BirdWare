@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "birdware",
+	"version": "${version}",
+	"name": "BirdWare",
+	"description": "BirdWare: a feature-rich utility client for anarchy servers and private test environments where client modifications are permitted.",
+	"authors": [
+		"BirdWare"
+	],
+	"license": "All-Rights-Reserved",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.birdware.BirdWareClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"mixins": [
+		"birdware.mixins.json",
+		"birdware.combat.mixins.json",
+		"birdware.combatpkt.mixins.json",
+		"birdware.movement.mixins.json",
+		"birdware.movementfly.mixins.json",
+		"birdware.movementmisc.mixins.json",
+		"birdware.player.mixins.json",
+		"birdware.inventory.mixins.json",
+		"birdware.world.mixins.json",
+		"birdware.worldesp.mixins.json",
+		"birdware.render.mixins.json",
+		"birdware.renderutil.mixins.json",
+		"birdware.misc.mixins.json",
+		"birdware.ui.mixins.json",
+		"birdware.hud.mixins.json"
+	]
+}
